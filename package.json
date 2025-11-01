@@ -1,0 +1,9 @@
+{
+  "name": "tinhthanh-api",
+  "version": "1.0.0",
+  "main": "functions/api.js",
+  "dependencies": {
+    "express": "^4.19.2",
+    "serverless-http": "^3.2.0"
+  }
+}
