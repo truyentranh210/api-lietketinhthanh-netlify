@@ -1,0 +1,9 @@
+[build]
+  functions = "functions"
+  command = "npm install"
+
+# 👇 Gộp URL gọn hơn
+[[redirects]]
+  from = "/*"
+  to = "/.netlify/functions/api/:splat"
+  status = 200
